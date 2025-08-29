@@ -1,1 +1,125 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Serif Pro", serif;
+  text-align: center;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about {
+  margin: 40px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.about__title {
+  margin-top: 0;
+  color: #2c5f9e;
+}
+.about__text {
+  margin-bottom: 10px;
+}
+
+.favorites {
+  margin: 40px 0;
+}
+.favorites__title {
+  margin-bottom: 15px;
+  color: #2c5f9e;
+}
+.favorites__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.favorites__poster {
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+.favorites__poster:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #f1f1f1;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 2px solid #ddd;
+}
+.footer__text {
+  margin: 0;
+}
+
+.header {
+  background: linear-gradient(135deg, #3a7bd5, #2c5f9e);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+.header__title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.header__subtitle {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+.header__name {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.header__portrait {
+  margin-top: 15px;
+}
+.header__portrait img {
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.motivation {
+  margin: 40px 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+.motivation__title {
+  margin-top: 0;
+  color: #2c5f9e;
+}
+.motivation__text {
+  text-align: justify;
+}
+
+.social {
+  margin: 40px 0;
+}
+.social__title {
+  margin-bottom: 10px;
+  color: #2c5f9e;
+}
+.social__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.social__link {
+  text-decoration: none;
+  color: #3a7bd5;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.social__link:hover {
+  color: #2c5f9e;
+}/*# sourceMappingURL=style.css.map */
