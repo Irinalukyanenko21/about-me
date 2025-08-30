@@ -1,14 +1,11 @@
 .about {
-    margin: 40px 0;
-    padding: 20px;
+    padding: 40px;
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     &__title {
-        margin-top: 0;
+        margin-top: 20px;
         color: $secondary-color;
     }
     &__text {
-        margin-bottom: 10px;
+        margin-top: 20px 0;
     }
 }

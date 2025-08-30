@@ -8,31 +8,33 @@ body {
   font-family: "Source Serif Pro", serif;
   text-align: center;
   background-color: #f8f9fa;
-  color: #333;
+  color: #363A3C;
   line-height: 1.6;
 }
 
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .about {
-  margin: 40px 0;
-  padding: 20px;
+  padding: 40px;
   background: white;
-  border-radius: 8px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 .about__title {
-  margin-top: 0;
-  color: #2c5f9e;
+  margin-top: 20px;
+  color: #93C96F;
 }
 .about__text {
-  margin-bottom: 10px;
+  margin-top: 20px 0;
 }
 
 .favorites {
   margin: 40px 0;
 }
 .favorites__title {
-  margin-bottom: 15px;
-  color: #2c5f9e;
+  margin-bottom: 20px;
+  color: #93C96F;
 }
 .favorites__grid {
   display: grid;
@@ -41,7 +43,6 @@ body {
 }
 .favorites__poster {
   border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
 }
 .favorites__poster:hover {
@@ -61,9 +62,9 @@ body {
 }
 
 .header {
-  background: linear-gradient(135deg, #3a7bd5, #2c5f9e);
-  color: white;
-  padding: 20px 0;
+  background: #FFD07F;
+  color: #363A3C;
+  padding: 40px 0;
   text-align: center;
 }
 .header__title {
@@ -77,28 +78,24 @@ body {
 }
 .header__name {
   font-weight: bold;
-  text-decoration: underline;
 }
 .header__portrait {
-  margin-top: 15px;
+  margin: 20px 0;
 }
 .header__portrait img {
   border-radius: 8px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 .motivation {
-  margin: 40px 0;
-  padding: 20px;
+  padding: 40px;
   background: #fff;
-  border-radius: 8px;
 }
 .motivation__title {
-  margin-top: 0;
-  color: #2c5f9e;
+  margin-top: 20px;
+  color: #93C96F;
 }
 .motivation__text {
-  text-align: justify;
+  margin-top: 20px auto;
 }
 
 .social {
@@ -106,7 +103,7 @@ body {
 }
 .social__title {
   margin-bottom: 10px;
-  color: #2c5f9e;
+  color: #93C96F;
 }
 .social__list {
   list-style: none;
@@ -116,10 +113,10 @@ body {
 }
 .social__link {
   text-decoration: none;
-  color: #3a7bd5;
+  color: #FFD07F;
   font-weight: 500;
   transition: 0.3s;
 }
 .social__link:hover {
-  color: #2c5f9e;
+  color: #93C96F;
 }/*# sourceMappingURL=style.css.map */

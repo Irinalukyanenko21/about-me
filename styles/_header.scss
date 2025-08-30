@@ -1,7 +1,7 @@
 .header {
-    background: linear-gradient(135deg, $primary-color, $secondary-color);
-    color: white;
-    padding: 20px 0;
+    background: $primary-color;
+    color: #363A3C;
+    padding: 40px 0;
     text-align: center;
     &__title {
         margin: 0;
@@ -14,13 +14,11 @@
     }
     &__name {
         font-weight: bold;
-        text-decoration: underline;
     }
     &__portrait {
-        margin-top: 15px;
+        margin: 20px 0;
         & img {
             border-radius: 8px;
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
         }
     }
 }
